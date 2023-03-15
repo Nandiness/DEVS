@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rampart+One&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+html {
+    background: url("https://img.freepik.com/free-vector/vector-overlap-layer-poster-cover-modern-color_8829-2517.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.post-header {
+    width: 100%;
+    height: 500px;
+    background-color: #242424;
+}
+
+.post-container {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+}
+
+.back-home {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    width: 120px;
+    padding: 10px;
+    margin-right: auto;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-title {
+    width: 90%;
+    font-size: 2.6rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-img {
+    width: 140%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.post-content {
+    margin-top: 10rem !important;
+}
+
+.sub-heading {
+    font-size: 1.6rem;
+}
+
+.header-title:hover {
+    letter-spacing: 5px;
+}
+
+.post-text {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    gap: 20px;
+}
+
+.author {
+    margin-top: -20px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-heading,
+    .post-text {
+        padding: 30px;
+        margin: 20px 0px;
+        font-size: 1.1rem;
+    }
+    .header-content {
+        padding: 2rem 0;
+    }
+    .header-img {
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+    }
+    .author {
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    .back-home {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:) {}
