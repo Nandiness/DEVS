@@ -1,3 +1,12 @@
 body {
     background: black;
 }
+
+.blog-more {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: not-allowed;
+}
