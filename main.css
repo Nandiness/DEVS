@@ -1,5 +1,6 @@
-body {
-    background: black;
+body,
+html {
+    background: #242424;
 }
 
 .blog-more {
