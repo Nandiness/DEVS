@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body,
 html {
     background: #242424;
@@ -11,3 +12,38 @@ html {
     justify-content: center;
     cursor: not-allowed;
 }
+=======
+body,
+html {
+    background: #242424;
+}
+
+.blog-more {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: not-allowed;
+}
+
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+  }
+  .theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #2a2c2d;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+  }
+  
+
+  #nav-logo{
+    width:150px;
+    position: absolute;
+    top: -50px;
+  }
+>>>>>>> e4d517f (changes)
